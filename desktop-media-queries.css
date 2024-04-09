@@ -1,0 +1,123 @@
+@media screen and (min-width: 1200px) {
+    #menu a {
+        color: #ffffff;
+        list-style-type: none;
+        margin: 0 10px;
+    }
+
+    /* NAV */
+    .nav-item .dropdown img {
+        margin-left: 15px;
+    }
+
+    .nav-link {
+        color: #fff;
+    }
+
+    .nav-link:hover {
+        color: #cb0919;
+    }
+
+    /* JUMBOTRON */
+    .j-icons {
+        justify-content: space-between;
+        margin: 0 45px;
+    }
+
+    .j-icons i {
+        color: #ffffff;
+        font-size: 20px;
+        border: 1px solid #ffffff;
+        padding: 5px 15px;
+        cursor: pointer;
+    }
+
+    #drop-item a {
+        color: #858585
+    }
+
+    .social i {
+        color: #ffffff;
+        font-size: 25px;
+        margin: 0 10px;
+    }
+
+    .social {
+        display: flex;
+        justify-content: center;
+        width: 210px;
+        margin-top: 150px;
+        margin-left: 290px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        width: 80%;
+        margin-top: 20px;
+        margin-left: 280px;
+    }
+
+    .links {
+        height: 90px;
+        flex-direction: column;
+        font-size: 14px;
+        justify-content: start;
+        margin-bottom: 0;
+    }
+
+    .links ul {
+        list-style-type: none;
+
+    }
+
+    .links a {
+        color: #858585;
+        text-decoration: none;
+    }
+
+    /* FOOTER */
+    .footer-btn {
+        margin-left: 310px;
+        margin-top: 20px;
+        padding: 5px 12px;
+        border-radius: 0;
+        border: 1px solid #858585;
+        background-color: #0e0e0e;
+        color: #858585;
+        font-size: 14px;
+    }
+
+    .copyright {
+        margin-left: 300px;
+        margin-top: 20px;
+        color: #858585;
+        font-size: 14px;
+    }
+
+    /* IMMAGINI */
+    .section h4 {
+        margin-left: 40px;
+        color: #ffffff;
+        margin-top: 20px;
+    }
+
+    .row.row-cols-2 {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .container-fluid.ms-2 {
+        margin-left: 40px !important;
+        width: 95%;
+    }
+
+    .custom-img {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+        width: auto;
+    }
+}

@@ -1,0 +1,131 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* IMPOSTAZIONI PAGINA */
+body {
+    background-color: #141414;
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* NAV */
+.logo {
+    width: 120px;
+    height: 60px;
+}
+
+#home {
+    color: #ffffff;
+    margin: 0 15px;
+}
+
+.kids {
+    color: #ffffff;
+    font-size: 12px;
+    margin: 0 15px;
+}
+
+.dropdown-toggle::after {
+    color: #fff;
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+.nav-2{
+    display: flex;
+    width: 100px;
+}
+/*JUMBOTRON*/
+.jumbotron {
+    display: flex;
+    justify-content: space-between;
+}
+
+.j-title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+    margin-left: 40px;
+}
+
+.j-title button {
+    margin: 0 45px;
+    padding: 5px 12px;
+    border-radius: 0;
+    border: 1px solid #ffffff;
+    background-color: #0e0e0e;
+}
+
+.j-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* IMMAGINI */
+.img-fluid {
+    transition: transform 0.3s ease-in-out;
+}
+
+.img-fluid:hover {
+    transform: scale(1.1);
+}
+
+/* FOOTER */
+.social i {
+    color: #858585;
+    display: flex;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social i:hover {
+    color: #ffffff;
+}
+
+.content {
+    display: flex;
+    width: 650px;
+    height: 90px;
+}
+
+.links {
+    height: 90px;
+    flex-direction: column;
+    font-size: 14px;
+    justify-content: start;
+}
+
+.links a {
+    color: #858585;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.links ul {
+    list-style-type: none;
+}
+
+.links a:hover {
+    color: #ffffff;
+}
+
+.footer-btn:hover {
+    background-color: #858585;
+    color: #0e0e0e;
+}
